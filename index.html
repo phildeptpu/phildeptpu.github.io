@@ -27,7 +27,30 @@
 	</style>
   </head>
   <body>
-  
+  <!-- Load Facebook SDK for JavaScript -->
+      <div id="fb-root"></div>
+      <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v5.0'
+          });
+        };
+
+        (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <!-- Your customer chat code -->
+      <div class="fb-customerchat"
+        attribution=setup_tool
+        page_id="293976940681380">
+      </div>
+      
   <div class="site-wrap">
 
     <div class="site-mobile-menu">
@@ -61,7 +84,9 @@
           <div class="d-inline-block d-xl-none ml-md-0 mr-auto py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
           </div>
         </div>
-      </div>
+   
+      
+      
     </header>
 
     <div class="site-section site-hero">
@@ -97,7 +122,16 @@
   </div>
         </div>
         
-
+        <div class="site-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="site-section-heading">
+            </div>
+          </div>
+          <div class="col-lg-5 mt-5 pl-lg-5" data-aos="fade-up" data-aos-delay="200">
+          </div>
+        </div>
 
         <div class="row align-items-center speaker">
           <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
@@ -113,19 +147,87 @@
 			  Vice-Chancellor, Wardha University </span></p>
               <p data-aos="fade-right" data-aos-delay="500">
                 Contact  &mdash;
-      <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to= rksphilosophy@gmail.com"><span class= "icon-google" ></span></a>
+       <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to= rksphilosophy@gmail.com"><span class= "icon-google" ></span></a>
 
                 <a target="_blank" href="https://www.facebook.com/rksphilosophy" class="p-2"><span class="icon-facebook"></span></a>
-              </p>
-            </div>
-          </div>
+      
         </div>
-        
-         
-            </div>
           </div>
         </div>
 
+     
+        <div class="row align-items-center speaker">
+          <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
+            <img src="images/lalit-parimoo.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 ml-auto order-lg-1">
+            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">Lalit Parimoo</h2>
+            <div class="bio pr-lg-5">
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Speaker (Technical and Valedictory Session) </span>
+              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Actor and Teacher</p>
+              <p data-aos="fade-left" data-aos-delay="500">
+                Contact &mdash;
+                <a target="_blank" href="https://en.wikipedia.org/wiki/Lalit_Parimoo"><span class= "icon-wikipedia-w" ></span></a>
+
+                <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=parimoo.lalit@gmail.com"><span class= "icon-google" ></span></a>
+
+                <a target="_blank" href="https://www.facebook.com/lalit.parimoo.9" class="p-2"><span class="icon-facebook"></span></a>
+
+                        </p>
+            </div>
+          </div>
+        </div>
+         </div>
+
+   <div class="row align-items-center speaker">
+          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade" data-aos-delay="100">
+            <img src="images/Florian_Cova .jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <h2 class="text-white mb-4 name" data-aos="fade-right" data-aos-delay="200">
+			Prof. Florian Cova </h2>
+            <div class="bio pl-lg-5">
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-right" data-aos-delay="300">
+				Special Lecture on </br> Experimental Philosophy of Aesthetics</span>
+              <p class="mb-4" data-aos="fade-right" data-aos-delay="400"><span>
+			  University of Geneva,Switzerland </span></p>
+              <p data-aos="fade-right" data-aos-delay="500">
+                Contact  &mdash;
+       <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to= Florian.Cova@unige.ch"><span class= "icon-google" ></span></a>
+
+                <a target="_blank" href="https://www.facebook.com/cova.florian" class="p-2"><span class="icon-facebook"></span></a>
+      
+        </div>
+          </div>
+        </div>
+
+     
+<div class="row align-items-center speaker">
+          <div class="col-lg-6 mb-5 mb-lg-0 order-lg-2" data-aos="fade" data-aos-delay="100">
+            <img src="images/david_1.jpg" alt="Image" class="img-fluid">
+          </div>
+          <div class="col-lg-6 ml-auto order-lg-1">
+            <h2 class="text-white mb-4 name" data-aos="fade-left" data-aos-delay="200">&nbsp; David Dubois</h2>
+            <div class="bio pr-lg-5">
+              <span class="text-uppercase text-primary d-block mb-3" data-aos="fade-left" data-aos-delay="300">Special Lecture on </br>Aesthetics and Abhinavagupta </span>
+              <p class="mb-4" data-aos="fade-left" data-aos-delay="400">Paris</p>
+              <p data-aos="fade-left" data-aos-delay="500">
+                Contact &mdash;
+
+                <a target="_blank" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=deven_fr@yahoo.fr"><span class= "icon-google" ></span></a>
+
+                <a target="_blank" href="https://www.facebook.com/david.dubois.9847" class="p-2"><span class="icon-facebook"></span></a>
+
+                        </p>
+            </div>
+          </div>
+        </div>
+         </div>
+
+
+
+     
+  
 
                
       </div>
@@ -153,7 +255,7 @@
                 <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">02.02.2020</span> </br> <span>10:00 AM - 5:00 PM </span>  </div>  
               <div class="col-md-9">
                 <h2 class="text-white">Inaugural and Technical Sessions 1-4 </h2>
-                <span>Prof. Ramakant Angiras</span>
+                <span>Prof. Rajneesh Shukla, Prof. Ramakant Angiras, Prof. Surendra Mohan,</br> Prof. Rajneesh Mishra </span>
               </div>
             </div>
           </div>
@@ -163,7 +265,7 @@
               <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">03.02.2020</span> </br> <span>10:00 AM - 5:00 PM</span></div>
               <div class="col-md-9">
                 <h2 class="text-white">Technical Sessions 5-8 </h2>
-                <span>Prof. Dharmanand Sharma</span>
+                <span>Prof. Surendra Mohan, Prof. Rajneesh Mishra, Dr Mayank Shekhar, </br> Prof. Prabhavati Chaudhary</span>
               </div>
             </div>
           </div>
@@ -173,7 +275,7 @@
               <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">04.02.2020</span> </br> <span>10:00 AM - 5:00 PM</span></div>
               <div class="col-md-9">
                 <h2 class="text-white">Technical Sessions 9-12 </h2>
-                <span>Prof. Surendra Mohan Mishra</span>
+                <span>Prof. Prabhavati Chaudhary, Prof. C Upendra Rao</span>
               </div>
             </div>
           </div>
@@ -183,7 +285,7 @@
               <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">05.02.2020</span> </br> <span>10:00 AM - 5:00 PM</span></div>
               <div class="col-md-9">
                 <h2 class="text-white">Technical Sessions 13-16 </h2>
-                 <span>Prof. C Upendra Rao</span>
+                 <span>Prof. C Upendra Rao, Prof. Meera Dwivedi, David Dubois</span>
               </div>
             </div>
           </div>
@@ -193,7 +295,7 @@
               <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">06.02.2020</span> </br> <span>10:00 AM - 5:00 PM</span></div>
               <div class="col-md-9">
                 <h2 class="text-white">Technical Sessions 17-20 </h2>
-                <span>Prof. Rajneesh Mishra</span>
+                <span>Prof. Meera Dwivedi, Prof. Ramakant Pandey, Prof. Rajesh Sharma</span>
               </div>
             </div>
           </div>
@@ -203,7 +305,7 @@
               <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">07.02.2020</span> </br> <span>10:00 AM - 5:00 PM</span></div>
               <div class="col-md-9">
                 <h2 class="text-white">Technical Sessions 21-24 </h2>
-                    <span>Prof. Ramakant Pandey</span>
+                    <span>Prof. Ramakant Pandey, Prof. Rajendra Prasad Sharma, Prof. Florian Cova</span>
               </div>
             </div>
 
@@ -213,8 +315,8 @@
             <div class="row align-items-stretch">
               <div class="col-md-3 text-white mb-3 mb-md-0"><span class="h4">08.02.2020</span> </br> <span>10:00 AM - 5:00 PM</span></div>
               <div class="col-md-9">
-                <h2 class="text-white">Technical Sessions 25-27 and Valedictory</h2>
-                    <span>Prof. Prabhavati Chaudhary</span>
+                <h2 class="text-white"> Sessions 25-27 and Valedictory</h2>
+                    <span>Student Session I, Student Session II, Lalit Parimoo, Prof. Dharmanand Sharma, </br> Prof. Ramakant Angiras  </span>
               </div>
             </div>
 
